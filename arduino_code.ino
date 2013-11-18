@@ -4,7 +4,7 @@
 #include <Xively.h>
 
 // MAC address for your Ethernet shield
-byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0x00, 0x00 }; // <--- DEAD-BEEF-EEEE -- Might change to 0001 for better numbering
+byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0x00, 0x00 }; // <--- DEAD-BEEF-0000
 
 // The Reference Voltage
 double REF_VOLTAGE = 3.3;
@@ -28,7 +28,7 @@ XivelyDatastream datastreams[] = {
   XivelyDatastream(sensorIdOut, strlen(sensorIdOut), DATASTREAM_FLOAT),
 };
 // Finally, wrap the datastreams into a feed
-XivelyFeed feed(974153165, datastreams, 2 /* number of datastreams */); // First Number is the datastread or feed, you'll need to change this
+XivelyFeed feed(12345, datastreams, 2 /* number of datastreams */); // First Number is the datastread or feed, you'll need to change this
 
 EthernetClient client;
 XivelyClient xivelyclient(client);
