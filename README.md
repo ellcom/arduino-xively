@@ -13,5 +13,10 @@ You'll need to download the [Xively Arduino Client](https://github.com/xively/xi
 - Change the feed number to your own feed number
 - Have fun and push / fork your improvements!
 
+###Xively
+
+A Xively is free to develop on at the moment and offers lots of great ways to work with your data. My personal favourite is graphs:
+![Outside Temp. Graph](https://api.xively.com/v2/feeds/974153165/datastreams/outdoor.png?h=200&b=true&g=true&t=Outside%20Temperature%20for%20Capenhurst,%20England)
+
 
 You can view my live example over on [Xively](https://xively.com/feeds/974153165)
