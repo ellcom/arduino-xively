@@ -9,7 +9,7 @@ You'll need to download the [Xively Arduino Client](https://github.com/xively/xi
 
 - You should first ensure that the mac address I've used is okay for your network, currently DE:AD:BE:EF:00:00
 - Provide your own API Key with write permisson to the channels
-- Ensure you have two channels, one called inside and the other called outside exactly
+- Ensure you have two channels, one called indoor and the other called outdoor exactly
 - Change the feed number to your own feed number
 - Have fun and push / fork your improvements!
 
