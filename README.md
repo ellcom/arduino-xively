@@ -3,7 +3,7 @@ Arduino-Xively
 
 Temperature Monitoring using Arduino Ethernet, 2x TMP36 and Access to Xively.
 
-You'll need to download the [Xively Arduino Client](https://github.com/xively/xively_arduino) and place it on your system along with the [HTTP Client](https://github.com/amcewen/HttpClient). That's it as far as software goes, however for the hardware you'll need two TMP36 temperature sensors; you should wire them up as follows, GROUND(TMP36) to GROUND(Arduino) for both, VIN(TMP36) to the 3.3 pin out(Arduino) for both TMP's and take a feed from the Arduino's 3.3v pin out and place it into the AREF pin on the Arduino.
+You'll need to download the [Xively Arduino Client](https://github.com/xively/xively_arduino) and place it on your system along with the [HTTP Client](https://github.com/amcewen/HttpClient). That's it as far as software goes, however for the hardware you'll need two TMP36 temperature sensors; you should wire them up as follows, GROUND(TMP36) to GROUND(Arduino) for both, VIN(TMP36) to the 3.3 pin out(Arduino) for both TMP's and take a feed from the Arduino's 3.3v pin out and place it into the AREF pin on the Arduino. I've used Pin 2 for inside and Pin 3 for outside, you should use a wire from each analog pin on the arduino to the signal pin of the TMP26s. 
 
 ###Configuration
 
